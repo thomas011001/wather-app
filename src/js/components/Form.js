@@ -14,7 +14,7 @@ form.addEventListener("submit", async function (e) {
   document.getElementById("citySearch").value = "";
 
   try {
-    const url = `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${city}?unitGroup=us&key=LRZYB2ZVNDD8W5DCFVCJVSLNM&contentType=json`;
+    const url = `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${city}?unitGroup=metric&key=LRZYB2ZVNDD8W5DCFVCJVSLNM&contentType=json`;
     const info = await getWeatherInfo(url);
     const card = createResultCard(info);
 

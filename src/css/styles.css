@@ -43,16 +43,16 @@ main {
   height: 100%;
 }
 
-nav {
+.credit {
   background-color: black;
   color: white;
 }
 
-nav a {
+.credit a {
   color: white;
 }
 
-nav .flex {
+.credit .flex {
   height: 32px;
   display: flex;
   align-items: center;

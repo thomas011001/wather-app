@@ -35,9 +35,8 @@ main {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url(../../assets/img.jpg);
-  background-size: cover;
-  background-position: center;
+  background-image: url(../../assets/image.png);
+  background-repeat: repeat;
   filter: brightness(0.5);
   z-index: -1;
   min-height: calc(100vh - 32px);
